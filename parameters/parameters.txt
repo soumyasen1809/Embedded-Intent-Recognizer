@@ -1,0 +1,5 @@
+City,Paris,Tokyo
+Fact,Facts
+Animal,Dog,Cat,Tiger
+Greeting,Hello,Hi
+Weather,Sunny,Rainy,Cloudy,Fog
