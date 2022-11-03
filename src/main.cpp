@@ -14,6 +14,7 @@ int main(){
 
     std::vector<std::string> intents_matched = Recognition_Driver().Intent_Recognition(user_input);
 
+    // Print the output here
     std::cout << "Intent: Get ";
     for (const auto& intents:intents_matched)
     {

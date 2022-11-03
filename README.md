@@ -70,3 +70,10 @@ Embedded-Intent_Recognizer
 # Testing framework
 
 [GoogleTest](https://github.com/google/googletest) (also known as gtest) is Google's C++ testing and mocking framework. It is used in this project for writing unit tests. Using the `FetchContent_Declare()` in `CMakeLists.txt`, the content for GoogleTest is fetched and is stored in `/lib/googletest/` directory. The configuration declares a dependency on GoogleTest which is downloaded from GitHub. To fetch an up-to-date version of GoogleTest, the URL needs to be updated.
+\
+To get the gtest results, we can run as
+```bash
+$ ./test/Embedded_Intent_Recognizer_test
+```
+It runs 5 tests from 1 test suite `Embedded_Intent_Recognizer_test`. The tests include `Weather_Test, City_Test, Fact_Test, NotFound_Test` and `Multiple_Intent_Test`. 
+
